@@ -18,7 +18,9 @@ Code Developed and Adapted with/from numerous people over the years,  including 
 The software is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and non-infringement. In no event shall the authors or copyright holders be held liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.
 
 ## Compiled Applications 
-The compiled PC and MAC GUI application can be used as standalone applications. They were compiled using MATALB, but do not require MATLAB. However, in order to use the compiled/executable applications you will need to install the free MATLAB Runtime Component Compiler. You MUST install the 2017a MATLAB Runtime Component Compiler 64-bit.
+The compiled PC and MAC GUI application can be used as standalone applications. They were compiled using MATALB, but do not require MATLAB. However, in order to use the compiled/executable applications you will need to install the free MATLAB Runtime Component Compiler.
+- MAC: 2017a MATLAB Runtime Component Compiler 64-bit.
+- PC: 2017b MATLAB Runtime Component Compiler 64-bit.
 
 Use the included web installer or directly download the corresponding free runtime compiler from Mathworks.com: http://www.mathworks.com/products/compiler/mcr/?refresh=true
 
