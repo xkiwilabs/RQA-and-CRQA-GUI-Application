@@ -19,7 +19,6 @@ The software is provided "as is", without warranty of any kind, express or impli
 
 ## Compiled Applications 
 The compiled PC and MAC GUI application can be used as standalone applications. They were compiled using MATALB, but do not require MATLAB. However, in order to use the compiled/executable applications you will need to install the free MATLAB Runtime Component Compiler.
-- MAC: 2017a MATLAB Runtime Component Compiler 64-bit.
 - PC: 2017b MATLAB Runtime Component Compiler 64-bit.
 
 Use the included web installer or directly download the corresponding free runtime compiler from Mathworks.com: http://www.mathworks.com/products/compiler/mcr/?refresh=true
