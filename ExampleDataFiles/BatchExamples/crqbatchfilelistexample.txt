@@ -1,0 +1,3 @@
+lx1000.txt	ly1000.txt
+lx1000.txt	lz1000.txt
+ly1000.txt	lz1000.txt

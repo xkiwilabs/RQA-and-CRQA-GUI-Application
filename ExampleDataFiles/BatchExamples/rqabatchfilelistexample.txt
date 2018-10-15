@@ -1,0 +1,6 @@
+lx1000.txt
+ly1000.txt
+lz1000.txt
+rx1000.txt
+rx2000.txt
+rx5000.txt
