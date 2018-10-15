@@ -19,14 +19,14 @@ Code Developed and Adapted with/from numerous people over the years,  including 
 The software is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and non-infringement. In no event shall the authors or copyright holders be held liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.
 
 ## Compiled Applications 
-The compiled PC and MAC GUI application can be used as standalone applications. They were compiled using MATALB, but do not require MATLAB. However, in order to use the compiled/executable applications you will need to install the free MATLAB Runtime Component Compiler.
+The compiled PC GUI application can be used as a standalone application. The GUI was compiled using MATALB, but does not require MATLAB. However, in order to use the compiled/executable application you will need to install the free MATLAB Runtime Component Compiler.
 - PC: 2017b MATLAB Runtime Component Compiler 64-bit.
 
 Use the included web installer or directly download the corresponding free runtime compiler from Mathworks.com: http://www.mathworks.com/products/compiler/mcr/?refresh=true
 
 ## Uncompiled MATLAB Files
 If you have MATLAB you can run the GUI directly from MATLAB using the included m-files (i.e., you don’t need to install the runtime component compiler). The following files are included:
-- rqa: This GUI script calculates the auto- and/or cross-recurrence measures (e.g., %recurrence, %determinism, entropy, maxline) for categorical or continuous time series data. The calculated statistics can be output to a summary ‘.csv’ file.
+- rqa: This GUI script calculates the auto- and/or cross-recurrence measures (e.g., %recurrence, %determinism, entropy, maxline) for categorical or continuous time series data. The calculated statistics can be output to a summary ‘.csv’ file. You can run computations on multiple input files by selecting the Batch option and creating a batch file (see examples batch files). The RP matrix can also be saved for further quantification or for joint-recurrence calculations.
 
 - ami: This GUI script calculates the average mutual information (in bits)—the amount of information that is shared between data points in a time series separated by a given number of data points. After selecting the file to be analyzed (a single column of ASCII data), the output is a graph of AMI as a function of delay. A common convention is to use the first local minimum in the AMI plot.
 
