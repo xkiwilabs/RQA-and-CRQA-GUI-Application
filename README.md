@@ -26,7 +26,7 @@ Use the included web installer or directly download the corresponding free runti
 
 ## Uncompiled MATLAB Files
 If you have MATLAB you can run the GUI directly from MATLAB using the included m-files (i.e., you don’t need to install the runtime component compiler). The following files are included:
-- rqa: This GUI script calculates the auto- and/or cross-recurrence measures (e.g., %recurrence, %determinism, entropy, maxline) for categorical or continuous time series data. The calculated statistics can be output to a summary ‘.csv’ file. You can run computations on multiple input files by selecting the Batch option and creating a batch file (see examples batch files). The RP matrix can also be saved for further quantification or for joint-recurrence calculations.
+- rqa: This GUI script calculates the auto- and/or cross-recurrence measures (e.g., %recurrence, %determinism, entropy, maxline) for categorical or continuous time series data. The calculated statistics can be output to a summary ‘.csv’ file. You can run computations on multiple input files by selecting the Batch option (see the example batch files for how to define a batch input computation file). The RP matrix can also be saved for further quantification or for joint-recurrence calculations.
 
 - ami: This GUI script calculates the average mutual information (in bits)—the amount of information that is shared between data points in a time series separated by a given number of data points. After selecting the file to be analyzed (a single column of ASCII data), the output is a graph of AMI as a function of delay. A common convention is to use the first local minimum in the AMI plot.
 
